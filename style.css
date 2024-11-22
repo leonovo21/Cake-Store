@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #F6E6D7;
+}
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-container img {
+    width: 350px;
+    height: 250px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input input {
+    width: 250px;
+    height: 30px;
+} 
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-entra, .btn-sair {
+    margin: 10px;
+    width: 75px;
+    height: 25px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.btn-entra {
+    color: black;
+    background: #42E934;
+}
+.btn-sair {
+    border: 2px solid black;
+    color: black;
+    background: #EA2727;
+}
+/*HEADER*/
+header {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.texto_logo {
+    font-size: 100px; 
+    display: flex;
+    align-items: center; 
+    height: 100%; 
+    margin: 0 10px; 
+}
+
+
+/*INDICI*/
+.search {
+    border: none;
+}
+.indic {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    width: 100%; 
+}
+.indic nav, ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+}
+.indic li {
+    list-style: none;
+    margin: 10px;
+}
+.indic li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.indic nav section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #FFF;
+    width: 200px;
+    height: 21px;
+}
+.indic input {
+    border: none;
+}
+.indic section button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.img-search {
+    width: 15px;
+    height: 15px;
+}
+.perfil {
+    width: 40px;
+    height: 24.26px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+/* MAIN */
+.backgound {
+    display: block; 
+    width: 100%; 
+    height: 300px; 
+    background-image: url("./img/cake_header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+.backgound h1 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 100px; 
+    background-color: transparent;
+    padding: 0; 
+    border-radius: 0; 
+    color: #FFF;
+}
+.m_desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
+}
+.m_desc h3{
+    width:  60%;
+
+}
+
+/*bolos*/
+.bolos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.bloc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+.bolos article { 
+display: flex;
+}
+.bolos img {
+    width: 100%;  
+    height: 100%; 
+    border-radius: 25px;
+}
+.bolos figure {
+   display: flex;
+    border-radius: 45px;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+    width: 253px;
+    height: 162px;
+    position: relative;  
+}
+.desc {
+display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 25px;
+    padding: 5px;
+    width: 253px;
+    height: 200px;  
+    background: #D6C5A1;
+
+}
+.desc h4 {
+     color: #FFF;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+.desc p {
+    color: #FFF;
+    font-size: 17px;
+    text-align: center; 
+}
+.bolos button {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    align-items: center;
+    background-color: #218838;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 130px;
+    height: 27px;
+    margin-top: 20px;
+}
+.bolos button:hover {
+    background-color: #07af2c;
+}
+/*Nota*/
+.aval {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.aval article {
+    display: flex;
+    margin-top: 50px;
+}
+.aval article section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 288px;
+    height: 168px;
+    font-size: 1rem;
+}
+.cliente {
+    width: 131px;
+    height: 131px;
+    border-radius: 150px;
+}
+.estrela {
+    width: 135px;
+}
+/*linha*/
+.linha {
+    border: none;
+    height: 3px;
+    background-color: black;
+    width: 70%;
+    margin: 20px auto;
+}
+/*novidades*/
+.news {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.news article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 50%; 
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+.news section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 359px;
+}
+
+.text_upper_why, .text_upper_inpt {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.news input[type="text"] {
+    width: 250px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #D6C5A1;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.news button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #218838;
+    transition: background-color 0.3s ease;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.news button:hover {
+    background-color: #07af2c;
+}
+
+.contato {
+    display: flex;
+    background-color: #D6C5A1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    height: 175px;
+}
+.contato article {
+    margin: 40px;
+    width: 283px;
+    height: 106px;
+}
+.contato h3 {
+    margin-bottom: 10px;
+}
+footer {
+  text-align: center; 
+  width: 100%;           
+  padding: 10px 0;       
+  background-color: #D6C5A1
+}
+
